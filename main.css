@@ -1,0 +1,78 @@
+*{margin:0; padding:0;}
+body {font-family:'Arial',Times New Roman; font-size:12px; background:url(images/body.png) repeat scroll 0 0 #280E19; line-height:20px;}
+a{color:#ce0f77; text-decoration:none;}
+a:hover {text-decoration:none;}
+input[type=text], input[type=password], text-area{border:1px solid #ddd; padding:5px;}
+input[type=submit] {}
+h1,h2 {font-weight:normal;  text-transform:uppercase;}
+h2 {color:#95195c; font-size:24px;}
+
+img{max-width:100%; height:auto;}
+.alignleft {float:left; margin-right:10px;}
+.aligncenter {display:block; margin:10px auto;}
+.alignright {float:right; margin-left:10px;}
+
+.floatleft{float:left;}
+.floatright {float:right;}
+
+.stracture{width:940px; display:block; margin:0 auto;}
+.fix {overflow:hidden;}
+
+.header_top_area {}
+.header_top {margin-left:365px; margin-top:20px; margin-bottom:20px;}
+.header_top h1 {color:#ffffff;}
+.header_top h3 {color:#b9e377; padding:3px;}
+
+.main_manu_area{background: url('images/manubg.png') repeat-x scroll  0 0 #0E0509; border:2px solid #4A0D2E; border-left:none; height:36px;}
+.main_manu {}
+.main_manu ul{margin:0px; padding:0px; list-style:none;}
+.main_manu ul li{float:left;}
+.main_manu ul li a{padding:8px 25px; font-size:16px; display:block; color:#fab5dd;}
+.main_manu ul li a:hover{background:#4A0D2E; color:#ffffff;}
+
+.slider_area {background:#0E0509; margin-top:12px; border:2px solid #4A0D2E; border-radius:9px; height:412px; position:relative; }
+.slider_image {background:#0E0509; width:336px; padding: 37px 19px; float:left;}
+.slider_text {width:386px; margin-left:450px; margin-top:60px;}
+.slider_text_title { }
+.slider_text_title h1{color:#ffffff; font-size:38px; line-height:50px; font-weight:bold; }
+.slider_text_title p{color:#ff9ed2; font-size:12px; margin-top:40px; margin-bottom:40px; }
+.slider_text_button { background:#5f0e3c;height:50px; width:174px;}
+.slider_text_button  a{color:#ffffff;  font-size:20px; padding-top:13; padding-left:26; display:block;}
+
+.content_area {background:#0E0509; margin-top:17px; border:2px solid #4A0D2E; border-radius:9px;}
+.content {margin-bottom:80px; margin-left:42px; margin-top:50px;}
+.single_content {float:left; width:240px; padding:0px 0px 0px 10px; margin-right:48px; }
+.single_content h2{ }
+.single_content p{color:#e5bddd; font-size:12px; margin-top:35; margin-bottom:22px; height:78px;}
+.content_button {float:right; background:#5e0e3b; height:25px; width:65px;}
+.content_button a {color:#ffffff; font-size:12px; padding:0px 18px;}
+.promo_area {margin-left:42px;}
+.welcome_promo {width:410px; float:left;}
+.welcome_promo h2 { padding:4px 0px 20px 8px;}
+.welcome_promo img {border:1px solid #4A0D2E; padding:5px;}
+.welcome_promo_content {width:410px; padding-top:24px;}
+#one { color:#ffffff; font-weight:bold; font-style:italic;}
+#two {color:#e5bddd; font-size:12px; padding:3px;}
+.welcome_promo span{color:#ce0f77; text-decoration:underline;}
+.welcome_promo_more {float:right; background:url(images/latest_post_button.png)no-repeat scroll 0 0 #5e0e3b; height:27px; width:85px; margin-top:50px;}
+.welcome_promo_more a {display:block; text-align:center; padding-top:4px; color:#fff;}
+.latest_post {width:465px; float:right; border-left:2px solid #4A0D2E}
+.latest_post h2{margin-left:30px; padding-bottom:3px;}
+.post_item {margin-top:10px; margin-left:30px;}
+.post_date {float:left; border:1px solid #4A0D2E; border-radius:9px; width:85px;}
+#date {color:#ffffff; font-size:34px; padding:13px; margin-left:6px;}
+#month{ font-weight:bold; margin-left:5px; padding:10px;}
+.post_text {float:right; width:278px;  margin-right:32px; padding-top:8px;}
+.post_text p{color:#ffffff; font-size:12px;}
+.post_text span{color:#e5bddd;}
+#pink_color {color:#5a0c37;}
+.latest_post_button {float:right; background:url(images/latest_post_button.png)no-repeat scroll 0 0 #5e0e3b; height:27px; margin-right:23px; margin-bottom:60px; width:85px; }
+.latest_post_button a{display:block; color:#fff; text-align:center; padding-top:4px;}
+
+.footer_area {margin:10px auto;}
+.footer {margin-bottom:36px;}
+.footer ul{list-style:none; margin:0; padding:0; text-align:center;}
+.footer ul li{ border-right:1px solid #803965; display:inline;}
+.footer ul li:last-child{border-right:none;}
+.footer ul li a{padding:10px; color:#803965; font-size:12px; font-weight:bold; display:inline-block; }
+.footer ul li a:hover{color:#ce0f77;}
